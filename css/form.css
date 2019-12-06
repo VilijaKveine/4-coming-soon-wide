@@ -1,0 +1,28 @@
+.hero > .container > form {
+    display: inline-block;
+    width: 100%;
+}
+    .hero > .container > form > input {
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 10px;
+        border: none;
+        border-bottom: 1px solid #CCC;
+        font-size: 20px;
+        line-height: 40px;
+        color: var(--light-color);
+        background-color: transparent;
+        outline: none;
+    }
+    .hero ::-webkit-input-placeholder { /* Edge */
+        color: var(--light-color);
+    }
+    .hero :-ms-input-placeholder { /* Internet Explorer 10-11 */
+        color: var(--light-color);
+    }
+    .hero ::placeholder {
+        color: var(--light-color);
+    }
+    .hero > .container > form > div {
+    }
+    
