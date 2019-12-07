@@ -1,4 +1,4 @@
-.hero > .container > form {
+/* .hero > .container > form {
     display: inline-block;
     width: 100%;
 }
@@ -13,16 +13,32 @@
         color: var(--light-color);
         background-color: transparent;
         outline: none;
+    } */
+
+    form {
+        display: inline-block;
+        width: 100%;
     }
-    .hero ::-webkit-input-placeholder { /* Edge */
-        color: var(--light-color);
-    }
-    .hero :-ms-input-placeholder { /* Internet Explorer 10-11 */
-        color: var(--light-color);
-    }
-    .hero ::placeholder {
-        color: var(--light-color);
-    }
-    .hero > .container > form > div {
-    }
-    
+        form > input,
+        form > textarea {
+            display: inline-block;
+            background-color: transparent;
+            width: 100%;
+            margin-bottom: 20px;
+            font-size: 18px;
+            line-height: 25px;
+            border: none;
+            border-bottom: 1px solid #ccc;
+            resize: vertical;
+        }
+        form > textarea {
+            min-height: 100px;
+            max-height: 350px;
+        }
+        .two-in-row {
+            width: 45%;
+            float: left;
+        }
+        .two-in-row:last-of-type {
+            margin-left: 10%;
+        }

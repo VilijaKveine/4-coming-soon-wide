@@ -1,4 +1,4 @@
-.hero > .container > .mouse {
+.hero > .mouse {
     display: inline-block;
     width: 50px;
     height: 90px;
@@ -6,7 +6,7 @@
     border: 8px solid #FFF;
     border-radius: 25px;
 }
-    .mouse > .scroll {
+    .mouse > .wheel {
         display: inline-block;
         width: 10px;
         height: 20px;
@@ -14,14 +14,13 @@
         border-radius: 5px;
         margin-top: 10px;
         animation-name: scrolling;
-        animation-duration: 2s;
-        animation-iteration-count: infinite;
-        /* box-shadow: 0 0 0 #FFF;
+        /* animation-duration: 2s; */
+        /* animation-iteration-count: infinite; */
+        box-shadow: 0 0 0 #FFF;
         animation-timing-function: cubic-bezier(0, 1.07, 0.45, 0.14);
-        background-image: url(../img/mouse.jpeg);
         background-position: center;
-        background-size: contain; */
+        background-size: contain;
     }
-        .mouse > .scroll:hover {
+        /* .mouse > .scroll:hover {
             animation-play-state: paused;
-        }
+        } */

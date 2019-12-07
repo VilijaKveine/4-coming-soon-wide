@@ -10,11 +10,11 @@
         font-size: 14px;
         line-height: 20px;
     } 
-        .progress-bar > .texts > .title {
+        .progress-bar > .texts >.title {
             display: inline-block;
             float: left;
         }
-        .progress-bar > .texts > .value {
+        .progress-bar > .texts .value {
             display: inline-block;
             float: right;
         } 
