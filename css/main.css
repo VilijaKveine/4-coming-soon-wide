@@ -154,11 +154,11 @@ footer {
                 font-size: 20px;
                 line-height: 20px;
             }
-            /* footer > .socials > a:hover {
+            footer > .socials > a:hover {
                 background-color: #fff;
                 color: #6FB2F8;
                 border-radius: 50%;
-            } */
+            }
         
         footer >.row >.footer-content {
             display: inline-block;
@@ -200,6 +200,9 @@ footer {
         width: 600px;
         margin-left: calc( (100% - 600px) / 2 );
         margin-right: calc( (100% - 600px) / 2 );
+    }
+    footer > .row >.btn.fa{
+        display: none;
     }
 }
 @media (max-width: 700px) {
