@@ -7,26 +7,26 @@
 }
     .mouse > .wheel {
         display: inline-block;
-        width: 8px;
+        width: 20px;
         height: 20px;
-        margin-top: 10px;
+        margin-top: 20px;
         background-color: #FFF;  
-        /* background-image: url(../img/mouse.png);    */
+        background-image: url(../img/mouse.png);   
         animation-name: in-da-house 1s linear infinite;  
         background-size: cover;
         animation-play-state: paused;
     }
-         .hero:hover.mouse > .wheel{ 
+        .hero:hover .mouse > .wheel { 
             animation-play-state: running; 
          } 
 @keyframes in-da-house {
      0% {
-        margin-top: 40px;
+        margin-top: 10px;
         transform: rotate(0deg);
         opacity: 1;
         }
-        100% {
-        margin-top: 120px;
+    100% {
+        margin-top: 50px;
         transform: rotate(360deg);
         opacity: 0;
         } 
